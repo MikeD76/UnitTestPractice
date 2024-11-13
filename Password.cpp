@@ -27,7 +27,7 @@ int Password::count_leading_characters(string phrase){
 bool Password::has_mixed_case(string pass){
 
   bool upper = false;
-  bool lower = false;
+  bool lower = false
 
   for(int i = 0; i < (int)pass.size(); i++)
   {
