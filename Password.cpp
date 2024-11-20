@@ -41,5 +41,5 @@ bool Password::has_mixed_case(string pass){
 
 
 
-  return upper && lower ? true : false;
+  return upper && lower;
 }
